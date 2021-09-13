@@ -1,6 +1,6 @@
 import os
 def read_bounds():
-    Icms_path = os.path.abspath("data\\lcms.dat")
+    Icms_path = os.path.abspath("data/lcms.dat")
     file = open(Icms_path)
 
     header = file.readline().split()
